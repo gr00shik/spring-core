@@ -1,6 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context https://www.springframework.org/schema/context/spring-context.xsd">
+
+<!--    <bean name="database" class="com.tms.model.Database"/>-->
+
+<!--    <bean name="userservice" class="com.tms.service.impl.UserDBServiceImpl"-->
+<!--          autowire="constructor" scope="singleton" depends-on="fileservice" lazy-init="true">-->
+<!--&lt;!&ndash;        <constructor-arg name="store" ref="database"/>&ndash;&gt;-->
+<!--    </bean>-->
+
+<!--    <bean name="fileservice" class="com.tms.service.impl.UserFileServiceImpl" autowire="constructor">-->
+<!--&lt;!&ndash;        <constructor-arg name="database" ref="database"/>&ndash;&gt;-->
+<!--    </bean>-->
+
+<!--    <bean name="login" class="com.tms.service.impl.LoginServiceImpl" lazy-init="true" init-method="init"-->
+<!--    destroy-method="destroy">-->
+<!--        <constructor-arg name="service" ref="fileservice"/>-->
+<!--    </bean>-->
+
+<!--    <bean name="beanService" class="com.tms.service.impl.BeanService" init-method="init" destroy-method="destroy"/>-->
+
+<!--    <bean name="bsbpp" class="com.tms.processor.BeanServiceBeanPostProcessor"/>-->
 
 </beans>

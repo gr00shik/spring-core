@@ -1,5 +1,6 @@
-package com.tms.service;
+package com.tms.processor;
 
+import com.tms.service.impl.BeanService;
 import org.springframework.beans.BeansException;
 import org.springframework.beans.factory.config.BeanPostProcessor;
 
